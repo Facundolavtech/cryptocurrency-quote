@@ -6,10 +6,21 @@
 }
 
 body{
-  background: url(./assets/background.png);
+  /* background: url(./assets/background.png); */
+  background: url(../src/assets/form-bg.svg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   object-fit: cover;
   background-position: center;
+}
+
+.container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.600);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

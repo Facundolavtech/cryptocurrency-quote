@@ -1,0 +1,62 @@
+.form-card{
+    width: 450px;
+    max-width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0 0 20px 0 rgb(24, 23, 23);
+}
+
+.form-card h1{
+    text-transform: uppercase;
+    color: rgb(65, 27, 139);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-size: 1.5em;
+    color: rgb(20,20,20);
+}
+
+form select{
+    margin: 20px 0;
+    padding: 10px 5px;
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: rgb(107, 107, 107);
+}
+
+form select:focus{
+    color: rgb(39, 39, 39);
+}
+
+.cotizar{
+    min-width: 100%;
+    height: 45px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color:rgb(35, 35, 36);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:rgb(226, 175, 5);
+}
+
+.cotizar:hover{
+    background-color: rgb(199, 153, 4);
+    transition: background-color .2s ease;
+}
