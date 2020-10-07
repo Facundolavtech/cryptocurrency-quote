@@ -1,15 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import Form from './components/Form/Form';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <Fragment>
       <div className="container">
         <Form />
       </div>
-    </div>
+    </Fragment>
   );
 }
-
-export default App;
