@@ -6,8 +6,7 @@
 }
 
 body{
-  /* background: url(./assets/background.png); */
-  background: url(../src/assets/form-bg.svg) rgba(0, 0, 0, 0.600);
+  background: url(../src/assets/form-bg.svg);
   object-fit: cover;
   position: relative;
 }
