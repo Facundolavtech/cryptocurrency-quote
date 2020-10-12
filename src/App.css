@@ -8,7 +8,6 @@
 body{
   background: url(../src/assets/form-bg.svg);
   object-fit: cover;
-  position: relative;
 }
 
 .container{
