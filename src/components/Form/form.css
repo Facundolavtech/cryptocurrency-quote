@@ -1,7 +1,7 @@
 .form-card{
     width: 450px;
     max-width: 90%;
-    margin: 100px auto;
+    margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     display: flex;
