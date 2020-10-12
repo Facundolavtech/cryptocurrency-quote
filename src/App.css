@@ -7,12 +7,8 @@
 
 body{
   /* background: url(./assets/background.png); */
-  padding: 50px 0;
   background: url(../src/assets/form-bg.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
   object-fit: cover;
-  background-position: center;
 }
 
 .container{
@@ -23,4 +19,5 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 100px 0;
 }
