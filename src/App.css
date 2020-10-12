@@ -7,9 +7,9 @@
 
 body{
   /* background: url(./assets/background.png); */
+  padding: 50px 0;
   background: url(../src/assets/form-bg.svg);
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   object-fit: cover;
   background-position: center;
