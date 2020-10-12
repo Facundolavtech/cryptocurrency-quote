@@ -8,11 +8,14 @@
 body{
   background: url(../src/assets/form-bg.svg);
   object-fit: cover;
+  background-size: cover;
 }
 
 .container{
   position: absolute;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.600);
+  background-size: cover;
   width: 100%;
   height: 100%;
   display: flex;
