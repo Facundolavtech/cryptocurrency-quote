@@ -7,15 +7,15 @@
 
 body{
   /* background: url(./assets/background.png); */
-  background: url(../src/assets/form-bg.svg);
+  background: url(../src/assets/form-bg.svg) rgba(0, 0, 0, 0.600);
   object-fit: cover;
+  position: relative;
 }
 
 .container{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.600);
   display: flex;
   justify-content: center;
   align-items: center;
