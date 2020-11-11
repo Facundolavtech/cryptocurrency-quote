@@ -1,15 +1,16 @@
-.resultado{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
+.resultado {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.resultado p{
-    margin-bottom: 10px;
+.resultado p {
+  margin-bottom: 10px;
 }
 
-.resultado img{
-    width: 20%;
-    margin-bottom: 20px;
+.resultado img {
+  width: 20%;
+  margin-bottom: 20px;
 }
