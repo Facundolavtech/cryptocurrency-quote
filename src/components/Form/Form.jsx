@@ -83,12 +83,9 @@ export default function Form() {
           <option value="AUD">Dolar Australiano</option>
           <option value="MXN">Peso Mexicano</option>
         </select>
-        <button
-          type="submit"
-          name="cotizar"
-          className="cotizar"
-          value="Cotizar"
-        />
+        <button type="submit" name="cotizar" className="cotizar">
+          Cotizar
+        </button>
         {error ? (
           <Errors mensaje="Todos los campos son obligatorios" />
         ) : !loader ? (
